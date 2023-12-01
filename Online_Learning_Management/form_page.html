@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Ayush Jain">
+    <link rel="stylesheet" href="form_page.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/html1.png" type="image/x-icon">
+    <title>Online Learning Management</title>
+<body>
+    <h1>STUDY HUB</h1><br>
+    <hr>
+    <h2>India's Best Learning Platform</h2>
+    <hr>
+        <div>
+            <img src="img/onlinelearning.jpeg" height="200">
+        </div>
+    <br>
+    <p>Please fill out this form with the required information</p>
+<form>
+    <fieldset>
+        <legend>Your Class</legend>
+        <select>
+            <option value="">Choose your class</option>
+            <option value="1">11th</option>
+            <option value="2">12th</option>
+            <option value="3">Dropper</label>
+        </select>
+    </fieldset>
+        <br>
+        <br>
+    <fieldset>
+            <legend>CHOOSE YOUR COURSES HERE</legend>
+        <select>
+            <option value="select">Select your Courses</option>
+            <optgroup label="Competitive Exam">
+                <option>IIT-JEE</option>
+                <option>NEET</option>
+                <option>UPSC</option>
+                <option>GOVT JOB EXAM</option>
+                <option>GATE</option>
+            </optgroup>
+            <optgroup label="Programming">
+                <option>Python Course</option>
+                <option>C/C++ Course</option>
+                <option>Web Development Course</option>
+                <option>Data base Mangement Course</option>
+            </optgroup>
+        </select>
+    </fieldset>
+        <br>
+    <fieldset>
+        <legend>Fill your details</legend>
+        <label for="First-name">First Name : <input type="text" name="yourname" required placeholder="Enter your first name" autofocus></label>
+        <br>
+        <br>
+        <label for="Last-name">Last Name : <input type="text"  required placeholder="Enter your last name"></label>
+        <br>
+        <br>
+        <label>Your Phone-Number <input type="tel" name="phonenumber" required placeholder="Enter your phone number"></label>
+        <br>
+        <br>
+        <label for="email">Enter Your Email: <input id="email" name="email" type="email" placeholder="enter your email-id" " required /></label>
+        <br>
+        <br>
+        <label for="DOB">Date of Birth: </label><input type="date">
+        <br>
+        <br>
+        <label for="gender">Gender: </label><input type="radio" name="gender">Male <input type="radio" name="gender">Female
+        <br>
+        <br>
+        <label for="Father's name">Your's Father Name :  <input type="text" name="yourname" required placeholder="enter your father's name"></label>
+        <br>
+        <br>
+        <label for="Mother's name">Your's Mother's Name : <input type="text" placeholder="enter your mother's name"  required>
+        </label>
+        <br>
+        <br>
+        <label for="phone no">Father's phone no : <input type="text" name="phoneno" placeholder="enter father's phone no" required>
+        </label>
+        <br>
+        <br>
+        <label>Father's occupation : <input type="text" name="occupation" placeholder="enter father's occupation" required>
+        </label>
+        <br>
+        <br>
+        <label>Mother's occupation :<input type="text" name="occupation" placeholder="enter mother's occupation" required>
+        </label>
+        <br>
+    </fieldset>
+    <input type="submit" value="Submit"/>
+</form>
+</body>
+</head>
+</html>
